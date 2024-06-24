@@ -1,12 +1,13 @@
 import datos as d
 class Pizza():
-    precio= 10000
-    porte='familiar'
-    ingVeg1=""
-    ingVeg2=""
-    ingCar =""
-    salsa=""
-    masa=""
+    def __init__(self):
+        self.precio= 10000
+        self.porte='familiar'
+        self.ingVeg1=""
+        self.ingVeg2=""
+        self.ingCar =""
+        self.salsa=""
+        self.masa=""
     
     def asigna_masa(self,masa):
         self.masa=masa
